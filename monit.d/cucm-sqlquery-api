@@ -1,0 +1,3 @@
+check process cucm-sqlquery-api with pidfile /var/atc/cucm-sqlquery-api/pid/app.pid
+start program  "/usr/sbin/service cucm-sqlquery-api start"
+stop program  "/usr/sbin/service cucm-sqlquery-api stop"
